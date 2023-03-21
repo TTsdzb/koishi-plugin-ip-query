@@ -1,4 +1,5 @@
 import { Context, Schema } from "koishi";
+import {} from "koishi-plugin-alapi"
 
 export const name = "ip-query";
 
