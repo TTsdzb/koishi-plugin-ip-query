@@ -1,0 +1,41 @@
+{
+  "name": "koishi-plugin-ip-query",
+  "description": "查询IP地址的归属地信息。",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "contributors": [
+    "TTsdzb <ttsdzb@outlook.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/TTsdzb/koishi-plugin-ip-query",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TTsdzb/koishi-plugin-ip-query.git"
+  },
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "tool"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.11.9"
+  },
+  "koishi": {
+    "description": {
+      "zh": "使用Alapi查询IP地址的归属地信息。"
+    },
+    "service": {
+      "required": ["alapi"],
+      "optional": [],
+      "implements": []
+    },
+    "locales": ["zh"]
+  }
+}
