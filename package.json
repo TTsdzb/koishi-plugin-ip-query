@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-ip-query",
   "description": "查询IP地址的归属地信息。",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -32,10 +32,14 @@
       "zh": "使用Alapi查询IP地址的归属地信息。"
     },
     "service": {
-      "required": ["alapi"],
+      "required": [
+        "alapi"
+      ],
       "optional": [],
       "implements": []
     },
-    "locales": ["zh"]
+    "locales": [
+      "zh"
+    ]
   }
 }
