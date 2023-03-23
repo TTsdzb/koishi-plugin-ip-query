@@ -14,6 +14,7 @@ export function apply(ctx: Context) {
     .command("ip <ip:string>", "查询IP地址归属地")
     .example("ip 1.1.1.1  查询1.1.1.1的归属地信息")
     .action(async (_, ip) => {
+      if (ip === undefined) return "请指定要查询的IP地址"
       try {
         let result = await ctx.alapi.request("ip", { ip });
         return `${result.data.ip}：${result.data.pos}`;
