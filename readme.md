@@ -2,6 +2,8 @@
 
 [![npm](https://img.shields.io/npm/v/koishi-plugin-ip-query?style=flat-square)](https://www.npmjs.com/package/koishi-plugin-ip-query)
 
+**该插件效果很差且设置比较麻烦，同时作者没有更多精力维护该插件，因此将转为 Depreecated 并不再更新。**
+
 使用 Alapi 查询 IP 地址的归属地信息。
 
 ## 使用
